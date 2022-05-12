@@ -8,6 +8,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./temp-button/:/var/www/app
+      - /var/www/app/vendor
     command: sh -c './wait_for.sh db:3306 -- sh start.sh'
     networks:
       - temp_button_app_network
