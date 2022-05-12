@@ -8,6 +8,6 @@ php artisan migrate:refresh
 # ONLY TO BE USED FOR DEVELOPMENT
 php artisan db:seed
 php artisan passport:install
-php artisan serve
 echo "Runing Test Scripts"
 php artisan test
+php artisan serve
