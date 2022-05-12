@@ -46,3 +46,5 @@ temp-button-service | PHP 8.1.4 Development Server (http://127.0.0.1:8000) start
 After this, the hit the above endpoints ensuring that Header: `Accept: application/json` is being passed in the both endpoints. 
 
 A postman collection around the endpoints can be found here [Postman Collection](https://documenter.getpostman.com/view/2494122/UyxhmmbJ) 
+
+*If you face shell script issue - Output of docker-compose stating error of Command Not Found or similar - Please change the EOL sequence to LF for the files at /temp-button/start.sh & /temp-button/wait_for.sh 
