@@ -1,5 +1,27 @@
 ## This project is intended to be used only for the purpose of assignment evaluation by Temp Button.
 
+# 
+
+# Problem Statement
+
+Table: Users
+
+Endpoints:
+    POST /login
+    GET /users (JWT)
+
+
+Test Cases:
+1. Get all users with token
+2. Can't get all users without token
+
+
+Laravel + Docker
+
+
+-------
+
+
 This is a laravel project, and exposes 2 REST endpoints 
 
     /api/login
